@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("https://res.cloudinary.com/dacau4rk2/image/upload/v1571041269/background_wnzrt9.jpg");
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+}
+.container{
+	background-color: white;
+	max-width:590px;
+	margin:auto;
+	border-radius: 3px;
+}
+.card{
+	width:300px;
+}
+.bloc1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa, .fas{
+	color:#FEC503;
+}
+.fa-heart{
+	position: relative;
+	bottom:70px;
+	font-size: 2em;
+
+}
+.button{
+	background-color: #018A0B;
+	text-decoration: none;
+	color:#FFFFFF;
+	padding:15px;
+}
+.card-text{
+	padding-bottom: 15px;
+}
+.card-body{
+	padding-left:20px;
+}
+.bloc2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:350px;
+	position: relative;
+}
+.play{
+	position: fixed;
+	bottom:450px;
+}
+.play i{
+	font-size: 3em;
+}
+.bloc3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+
+}
+.bloc3 img{
+	padding: 0 5px;
+}
+@media all and(max-width:750px){
+	.container{
+		width:100%;
+	}
+	.bloc3{
+		width:100%;
+		padding:0 2px;
+	}
+	.bloc3 img{
+		padding:0 2px;
+			width: 100%;
+	}
+}
